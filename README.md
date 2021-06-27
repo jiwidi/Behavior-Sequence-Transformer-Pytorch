@@ -1,5 +1,5 @@
 # Behavior-Sequence-Transformer-Pytorch
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jiwidi/Behavior-Sequence-Transformer-Pytorch/blob/master/colab-bst.ipynb)
 
 This is a pytorch implementation for the BST model from Alibaba https://arxiv.org/pdf/1905.06874.pdf
 
@@ -13,12 +13,10 @@ For this implementation we used Movielens [1M Dataset](https://movielens.org/) t
 
 # Running
 
-You can run it in colab [here]. If you prefer to run locally the model architecture is contained on `pytorch-best.ipynb` while data processing is on the `prepare_data.ipynb` notebook and should be run first.
+You can run it in colab [here](https://colab.research.google.com/github/jiwidi/Behavior-Sequence-Transformer-Pytorch/blob/master/colab-bst.ipynb). If you prefer to run locally the model architecture is contained on `pytorch-best.ipynb` while data processing is on the `prepare_data.ipynb` notebook and should be run first.
 
 # Results
 Experiments running, will update later. Right now around 0.7 MAE.
-
-
 
 # References
 
