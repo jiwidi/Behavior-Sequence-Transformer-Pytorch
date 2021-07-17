@@ -16,7 +16,16 @@ For this implementation we used Movielens [1M Dataset](https://movielens.org/) t
 You can run it in colab [here](https://colab.research.google.com/github/jiwidi/Behavior-Sequence-Transformer-Pytorch/blob/master/colab-bst.ipynb). If you prefer to run locally the model architecture is contained on `pytorch-best.ipynb` while data processing is on the `prepare_data.ipynb` notebook and should be run first.
 
 # Results
-Experiments running, will update later. Right now around 0.7 MAE.
+With a random split of 20% test data from the full dataset we get the following results.
+
+| Dataset |  MAE  | RMSE |
+| :------ | :---: | ---: |
+| Train   | 0.72  | 0.84 |
+| Test    | 0.74  | 0.93 |
+
+Here is a screenshot of training logs we we see overfitting from epoch 12-15.
+
+![](img/logs.png)
 
 # References
 
