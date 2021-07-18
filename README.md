@@ -16,7 +16,7 @@ For this implementation we used Movielens [1M Dataset](https://movielens.org/) t
 You can run it in colab [here](https://colab.research.google.com/github/jiwidi/Behavior-Sequence-Transformer-Pytorch/blob/master/colab-bst.ipynb). If you prefer to run locally the model architecture is contained on `pytorch-best.ipynb` while data processing is on the `prepare_data.ipynb` notebook and should be run first.
 
 # Results
-With a random split of 20% test data from the full dataset we get the following results.
+Training on all-1 user ratings and leaving the latest rating for test we obtain the following results
 
 | Dataset |  MAE  | RMSE |
 | :------ | :---: | ---: |
